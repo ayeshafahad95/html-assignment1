@@ -1,0 +1,91 @@
+.pana1{
+    padding-right:2px;
+  
+}
+
+nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    height: 80px;
+    width: 80em;
+ }
+ nav a{
+    color: white;
+    text-decoration: none;
+ }
+
+ p{
+    font-size: larger;
+ }
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 80em;
+    
+ }
+
+ .content-container {
+    display: flex;
+    align-items: center; /* Centers image and text vertically */
+    justify-content: space-between; /* Space between text and image */
+    gap: 40px; /* Adds spacing between the text and image */
+    max-width: 100%; /* Ensures container does not exceed viewport width */
+    padding: 4px; /* Adds padding around the content */
+}
+
+.text-content {
+    flex: 2; /* Allows text to take up more space */
+    font-size: 1rem;
+}
+
+.image-content {
+    flex: 1; /* Allows image section to take up less space */
+}
+
+.pana3 {
+    max-width: 100%; /* Ensures image is responsive */
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+}
+
+.content-container1{
+    width: 70em;
+}
+
+
+.content-container2 ,.content-container3 {
+    display: flex;
+    align-items: center; /* Centers image and text vertically */
+    justify-content: space-between; /* Space between text and image */
+    gap: 40px; /* Adds spacing between the text and image */
+    width: 1200px; /* Ensures container does not exceed viewport width */
+    padding: 4px; /* Adds padding around the content */
+}
+
+.text-content1 ,.text-content2{
+    flex: 2; /* Allows text to take up more space */
+    font-size: 1rem;
+}
+
+.image-container-3 {
+    flex: 1; /* Allows image section to take up less space */
+}
+
+.pana3 {
+    max-width: 100%; /* Ensures image is responsive */
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+}
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0.1px;
+}
